@@ -10,20 +10,25 @@ export function Hero() {
           className="col-span-12 lg:col-span-10 lg:col-start-2 text-display leading-[0.95] tracking-[-0.03em] font-medium"
         >
           Regina{" "}
-          <span className="group/t relative inline-block align-baseline">
-            <span className="transition-opacity duration-300 group-hover/t:opacity-0">
-              Trevino
+          <span className="group/t inline-block align-baseline">
+            <span className="relative inline-block align-baseline">
+              <span className="transition-opacity duration-300 group-hover/t:opacity-0">
+                Trevino
+              </span>
+              <Image
+                src="/logo.png"
+                alt=""
+                width={577}
+                height={231}
+                priority
+                className="pointer-events-none absolute left-1/2 top-1/2 h-[1.55em] w-auto max-w-none -translate-x-1/2 -translate-y-[55%] opacity-0 transition-opacity duration-300 group-hover/t:opacity-100"
+              />
             </span>
-            <Image
-              src="/logo.png"
-              alt=""
-              width={577}
-              height={231}
-              priority
-              className="pointer-events-none absolute left-1/2 top-1/2 h-[1.1em] w-auto max-w-none -translate-x-1/2 -translate-y-[55%] opacity-0 transition-opacity duration-300 group-hover/t:opacity-100"
-            />
+            <span className="transition-opacity duration-300 group-hover/t:opacity-0">
+              ,
+            </span>
           </span>
-          ,<br />
+          <br />
           creative technologist.
         </Reveal>
 
