@@ -1,0 +1,170 @@
+.stage {
+  --kerning-start: 0.32em;
+  --kerning-end: -0.04em;
+  --size-start: 0.85;
+  --size-end: 1;
+}
+
+.hero {
+  font-family: var(--font-serif), serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(5rem, 18vw, 16rem);
+  line-height: 0.9;
+  letter-spacing: var(--kerning-start);
+  transform: scale(var(--size-start));
+  transform-origin: left bottom;
+  color: var(--color-ink);
+  will-change: letter-spacing, transform;
+  animation: hero-tighten linear both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 35%;
+}
+
+@keyframes hero-tighten {
+  to {
+    letter-spacing: var(--kerning-end);
+    transform: scale(var(--size-end));
+  }
+}
+
+.glyphGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  border-top: 1px solid var(--color-rule);
+  border-left: 1px solid var(--color-rule);
+}
+
+@media (min-width: 768px) {
+  .glyphGrid {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .glyphGrid {
+    grid-template-columns: repeat(13, 1fr);
+  }
+}
+
+.glyph {
+  position: relative;
+  aspect-ratio: 1;
+  border-right: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif), serif;
+  font-style: italic;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  color: var(--color-ink);
+  transition: background-color 220ms ease, color 220ms ease, transform 480ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.glyph::after {
+  content: attr(data-name);
+  position: absolute;
+  bottom: 0.6rem;
+  left: 0.6rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.glyph:hover {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  transform: translateY(-2px);
+}
+
+.glyph:hover::after {
+  opacity: 0;
+}
+
+.swatches {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  border: 1px solid var(--color-rule);
+}
+
+@media (min-width: 768px) {
+  .swatches {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.swatch {
+  padding: 1.5rem;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid var(--color-rule);
+}
+
+.swatch:last-child {
+  border-right: none;
+}
+
+.swatchChip {
+  width: 100%;
+  height: 80px;
+  border: 1px solid var(--color-rule);
+}
+
+.bodySpecimen p {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--color-ink);
+  max-width: 56ch;
+}
+
+.bodySpecimen p + p {
+  margin-top: 1.25rem;
+}
+
+.scaleRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  align-items: baseline;
+}
+
+@media (min-width: 768px) {
+  .scaleRow {
+    grid-template-columns: 120px 1fr;
+  }
+}
+
+.scaleLabel {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--color-muted);
+  padding-top: 0.6rem;
+}
+
+.scaleSample {
+  font-family: var(--font-sans), sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+  line-height: 1.05;
+}
+
+.tail {
+  font-family: var(--font-serif), serif;
+  font-style: italic;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.05;
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
+}
