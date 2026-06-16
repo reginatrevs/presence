@@ -12,7 +12,7 @@ export function SmallThings() {
     <section className="px-6 lg:px-10 py-24 lg:py-32 border-t border-rule">
       <div className="mx-auto w-full max-w-[1400px]">
         <Reveal className="mb-12 lg:mb-16">
-          <p className="text-2xl lg:text-3xl tracking-[-0.01em] text-ink/60 max-w-[40ch] font-serif italic">
+          <p className="text-2xl lg:text-3xl tracking-[-0.015em] text-ink/65 max-w-[40ch] font-medium leading-[1.25]">
             Smaller things — side roads, volunteer work, experiments that ended
             up mattering.
           </p>

@@ -61,7 +61,7 @@ export default async function CaseStudy({
               <Reveal
                 delay={0.2}
                 as="p"
-                className="col-span-12 lg:col-span-7 lg:col-start-2 mt-14 lg:mt-20 text-xl lg:text-2xl leading-[1.4] tracking-[-0.01em] text-ink/85 max-w-[42ch] font-serif italic"
+                className="col-span-12 lg:col-span-7 lg:col-start-2 mt-14 lg:mt-20 text-xl lg:text-[1.65rem] leading-[1.45] tracking-[-0.01em] text-ink/85 max-w-[48ch] font-normal"
               >
                 {project.caseStudy.frame}
               </Reveal>

@@ -7,7 +7,7 @@ export function WorkIndex() {
     <section id="work" className="px-6 lg:px-10 pt-32 lg:pt-48 pb-24">
       <div className="mx-auto w-full max-w-[1400px]">
         <Reveal className="mb-16 lg:mb-24">
-          <p className="text-2xl lg:text-3xl tracking-[-0.01em] text-ink/60 max-w-[28ch] font-serif italic">
+          <p className="text-2xl lg:text-3xl tracking-[-0.015em] text-ink/65 max-w-[28ch] font-medium leading-[1.25]">
             A few things from the last couple of years.
           </p>
         </Reveal>
