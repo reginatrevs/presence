@@ -38,11 +38,23 @@ export const skills: SkillGroup[] = [
   },
   {
     label: "Data & analytics",
-    items: ["PostgreSQL", "MySQL", "Supabase", "Search Console", "Meta reporting"],
+    items: [
+      "PostgreSQL",
+      "MySQL",
+      "Supabase",
+      "Search Console",
+      "Meta reporting",
+      "Performance analysis",
+    ],
   },
   {
     label: "Tooling",
-    items: ["Git", "GitHub", "AI-assisted IDEs", "Agent-based coding"],
+    items: [
+      "Git",
+      "GitHub",
+      "AI-assisted development",
+      "Workflow automation",
+    ],
   },
   {
     label: "Languages",
@@ -61,26 +73,26 @@ export type TimelineEntry = {
 export const timeline: TimelineEntry[] = [
   {
     years: "2024 — Now",
-    role: "Digital commerce & web solutions, media manager",
+    role: "Digital experience & web production",
     org: "The Cyclery",
     orgUrl: "https://thecyclery.ca",
     summary:
-      "Owning the online store experience — UX of the customer journey, seasonal campaigns, conversion-minded content, and the day-to-day work that keeps a real shop open.",
+      "Leading improvements to the e-commerce experience — usability, page structure, and customer journeys across key storefront pages. Managing site updates and digital campaign launches that support seasonal priorities and conversion-focused work.",
   },
   {
     years: "2025",
-    role: "UX research lead + front-end",
+    role: "UX research & front-end",
     org: "Pyralume",
     orgUrl: "https://www.linkedin.com/company/pyralume/",
     summary:
-      "Built the user testing kit and shipped the React component system from the same desk. Every component contract earned by a real interview.",
+      "Built a user testing kit to support research and usability evaluation. Synthesized findings into interface decisions and front-end components in React, TypeScript, and Tailwind.",
   },
   {
     years: "2025",
     role: "Front-end developer",
     org: "Project Heart",
     summary:
-      "Volunteer build of a responsive site for a nonprofit moving into e-learning — designed for low bandwidth and a wide age range.",
+      "Adapted a responsive site to support its transition toward an e-learning platform. Improved front-end structure and usability while keeping pace with an evolving brand identity.",
   },
   {
     years: "2025",
@@ -88,35 +100,36 @@ export const timeline: TimelineEntry[] = [
     org: "Lately",
     orgUrl: "https://www.getlately.app/",
     summary:
-      "Designed v2 of a time-management iOS app for Erik MacInnis. Soft colours, gamified feedback, a calmer system.",
+      "Designed v2 of an iOS time-management app for Erik MacInnis. A calmer, more playful direction — soft palette, gamified feedback, a flexible design system that defined the prototype.",
   },
   {
-    years: "2024 — 2025",
+    years: "2023 — 2024",
     role: "Web developer",
     org: "Notto",
     orgUrl: "https://notto.ca",
     summary:
-      "Front-end build of an operations platform for design studios — Next.js, Supabase, TypeScript, Tailwind.",
+      "Built and launched a self-hosted operations platform site for design studios. Responsive front-end with Next.js, TypeScript, React, and Tailwind; Supabase for the founding-studio waitlist.",
   },
   {
     years: "2023 — 2025",
-    role: "Interactive Media Design, Honours",
+    role: "Interactive media design, honours",
     org: "Algonquin College",
+    orgUrl: "https://www.algonquincollege.com/",
     summary:
-      "School of Media and Design. Finished with honours, 4.0 GPA, mostly because I liked the work.",
+      "School of Media and Design. 4.0, with honours — mostly because the work felt worth doing carefully.",
   },
   {
     years: "2021 — Now",
-    role: "Freelance interactive media designer",
+    role: "Freelance designer & developer",
     org: "Independent",
     summary:
-      "Adaptive websites, iOS interfaces in Swift, and digital content for clients including a major record label.",
+      "Designed and developed adaptive websites, product interfaces, and digital content for clients across media, culture, and service brands — including a major record label.",
   },
   {
     years: "2019 — 2023",
     role: "Digital & CMS specialist",
     org: "Immersive3dspaces",
     summary:
-      "Launched and ran the site around VR technology — mobile-responsive content, SEO, and the marketing system behind the launches.",
+      "Developed and launched the site showcasing VR-focused services. Designed and optimized content for search visibility, mobile responsiveness, and audience engagement across email and web.",
   },
 ];
