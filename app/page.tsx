@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { WorkIndex } from "@/components/WorkIndex";
 import { SmallThings } from "@/components/SmallThings";
 import { About } from "@/components/About";
+import { Timeline } from "@/components/Timeline";
 import { Colophon } from "@/components/Colophon";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <WorkIndex />
         <SmallThings />
         <About />
+        <Timeline />
       </main>
       <Colophon />
     </>

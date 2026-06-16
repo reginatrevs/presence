@@ -25,7 +25,7 @@ export const projects: Project[] = [
     index: "01",
     title: "Cyclery Racing",
     role: "Brand & launch site",
-    year: "2025",
+    year: "2026",
     summary:
       "A launch site for a Canadian racing team. Long, deliberate scroll; pink on black; sponsors as a closing wall rather than an opening one.",
     stack: ["Next.js", "GSAP", "TypeScript", "Vercel"],
@@ -48,7 +48,7 @@ export const projects: Project[] = [
     index: "02",
     title: "Notto",
     role: "Product site",
-    year: "2024",
+    year: "2023",
     summary:
       "A marketing site for B2B operations software that adapts to how studios actually work. The page itself had to argue the product's thesis.",
     stack: ["Next.js", "Supabase", "TypeScript", "Tailwind"],
@@ -98,6 +98,7 @@ export type SmallThing = {
   href?: string;
   external?: boolean;
   image?: string;
+  caseUrl?: string;
 };
 
 export const smallThings: SmallThing[] = [
@@ -119,6 +120,8 @@ export const smallThings: SmallThing[] = [
     description:
       "Led the user testing kit and built the React components from the same desk. Every contract earned by an interview.",
     note: "Most days started with a video call and ended with a refactor. The testing kit told me where the friction lived; the components answered. By the time the system was stable, every decision had a person behind it.",
+    href: "https://www.linkedin.com/company/pyralume/",
+    external: true,
   },
   {
     slug: "alo-runner",
@@ -137,8 +140,11 @@ export const smallThings: SmallThing[] = [
     kind: "iOS time-management UI",
     year: "2025",
     description:
-      "A redesign of a time-management app meant to feel calmer in the hand.",
-    note: "Most time-management apps feel like the work they’re meant to organize — busy, loud, anxious. This one tries the opposite. A lot of the work was in what we took out.",
+      "UI for v2 of Lately, a time-management app built by Erik MacInnis. Redesigned to feel calm, simple, and playful — away from the cold of typical time apps.",
+    note: "Soft colours, gamified feedback, a flexible system. The shipped app eventually went with a different direction, but the prototype defined the language.",
+    href: "https://www.getlately.app/",
+    external: true,
+    caseUrl: "https://www.instagram.com/p/DM9MOAXMT9-/",
   },
   {
     slug: "project-heart",
