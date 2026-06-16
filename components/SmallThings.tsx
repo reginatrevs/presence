@@ -133,37 +133,38 @@ export function SmallThings() {
 
 function CTA({ item }: { item: (typeof smallThings)[number] }) {
   const base =
-    "group/cta inline-flex items-baseline gap-2 font-mono text-[11px] uppercase tracking-[0.18em] transition-colors";
+    "group/cta inline-flex items-center gap-2 px-4 py-2 rounded-full border text-[13px] font-medium transition-colors";
   if (!item.href) {
     return (
-      <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted/60">
-        Private
+      <span className="text-[12px] text-muted/70 italic">
+        Private project
       </span>
     );
   }
   const arrow = (
     <span
       aria-hidden
-      className="transition-transform duration-500 ease-out group-hover/cta:translate-x-1"
+      className="transition-transform duration-500 ease-out group-hover/cta:translate-x-0.5"
     >
       {item.external ? "↗" : "→"}
     </span>
   );
+  const cls = `${base} border-ink/15 text-ink hover:bg-ink hover:text-paper hover:border-ink`;
   if (item.external) {
     return (
       <a
         href={item.href}
         target="_blank"
         rel="noreferrer"
-        className={`${base} text-ink hover:text-olive`}
+        className={cls}
       >
-        Visit {arrow}
+        Visit project {arrow}
       </a>
     );
   }
   return (
-    <Link href={item.href} className={`${base} text-ink hover:text-olive`}>
-      Open {arrow}
+    <Link href={item.href} className={cls}>
+      Open project {arrow}
     </Link>
   );
 }

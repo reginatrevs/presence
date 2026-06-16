@@ -43,10 +43,10 @@ export function Hero() {
 
         <Reveal
           delay={0.25}
-          className="col-span-12 lg:col-span-3 lg:col-start-10 mt-12 lg:mt-20 font-mono text-xs uppercase tracking-[0.18em] text-muted flex items-end justify-between gap-6"
+          className="col-span-12 lg:col-span-3 lg:col-start-10 mt-12 lg:mt-20 text-sm text-muted flex items-end justify-between gap-6"
         >
-          <span aria-hidden className="text-olive">↓</span>
-          <span>Three things, recently</span>
+          <span aria-hidden className="text-olive text-base">↓</span>
+          <span className="italic font-serif text-base">Three things, recently.</span>
         </Reveal>
       </div>
     </section>
