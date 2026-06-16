@@ -8,24 +8,16 @@ export function Nav() {
         <Link
           href="/"
           aria-label="Regina Trevino, home"
-          className="group inline-flex items-baseline gap-1.5"
+          className="inline-flex items-center"
         >
-          <span className="font-serif italic text-[17px] leading-none transition-opacity duration-300">
-            Regina
-          </span>
-          <span className="relative inline-block leading-none">
-            <span className="text-muted transition-opacity duration-300 group-hover:opacity-0">
-              Trevino
-            </span>
-            <Image
-              src="/logo.png"
-              alt=""
-              width={577}
-              height={231}
-              priority
-              className="pointer-events-none absolute left-0 top-1/2 h-[26px] w-auto max-w-none -translate-y-1/2 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-            />
-          </span>
+          <Image
+            src="/logo.png"
+            alt="Trevs"
+            width={577}
+            height={231}
+            priority
+            className="h-7 w-auto max-w-none"
+          />
         </Link>
         <ul className="flex items-center gap-8 text-muted">
           <li>
