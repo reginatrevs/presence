@@ -54,11 +54,11 @@ export function ScrollIndicator() {
     <>
       <div
         aria-hidden
-        className={`fixed top-14 left-0 right-0 z-[55] h-[1.5px] hidden lg:block pointer-events-none transition-opacity duration-500 ${
+        className={`fixed top-14 left-0 right-0 z-[55] h-[2px] hidden lg:block pointer-events-none transition-opacity duration-500 ${
           visible ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className="absolute inset-0 bg-rule/40" />
+        <div className="absolute inset-0 bg-rule/50" />
         <div
           ref={fillRef}
           className="absolute inset-0 bg-olive origin-left will-change-transform"
@@ -66,14 +66,14 @@ export function ScrollIndicator() {
         />
         <div
           ref={dotRef}
-          className="absolute top-full mt-1.5 -translate-x-1/2 h-7 w-7 rounded-full overflow-hidden border-2 border-paper shadow-[0_6px_16px_-6px_rgba(12,12,12,0.35)] will-change-[left]"
+          className="absolute top-full mt-2 -translate-x-1/2 h-12 w-12 rounded-full overflow-hidden border-2 border-paper shadow-[0_10px_24px_-8px_rgba(12,12,12,0.4)] ring-1 ring-ink/10 will-change-[left]"
           style={{ left: "0%" }}
         >
           <Image
             src="/cursor-full.png"
             alt=""
-            width={56}
-            height={56}
+            width={96}
+            height={96}
             className="h-full w-full object-cover"
           />
         </div>
