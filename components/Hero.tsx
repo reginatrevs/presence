@@ -9,16 +9,16 @@ export function Hero() {
           className="col-span-12 lg:col-span-10 lg:col-start-2 text-display leading-[0.95] tracking-[-0.03em] font-medium"
         >
           Regina Trevino,<br />
-          <span className="font-serif italic font-normal">design engineer</span>.
+          design engineer.
         </Reveal>
 
         <Reveal
           delay={0.15}
           className="col-span-12 lg:col-span-7 lg:col-start-2 mt-12 lg:mt-20 text-lg lg:text-xl leading-[1.55] text-ink/80 max-w-[44ch]"
         >
-          Part designer, part developer. I make thoughtful, responsive websites —
-          usually starting with a font choice and ending with code I&rsquo;m proud
-          of.
+          Creative technologist. I make thoughtful, responsive websites —
+          usually starting with a font choice and ending with code I&rsquo;m
+          proud of.
         </Reveal>
 
         <Reveal
