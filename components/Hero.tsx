@@ -36,9 +36,9 @@ export function Hero() {
           delay={0.15}
           className="col-span-12 lg:col-span-7 lg:col-start-2 mt-12 lg:mt-20 text-lg lg:text-xl leading-[1.55] text-ink/80 max-w-[46ch]"
         >
-          Working between design and the front end. Mostly websites — brand
-          systems, campaigns, and the interactive moments that hold them
-          together.
+          Working between design and the front end. I create adaptive and
+          responsive websites — brand systems, campaigns, and the interactive
+          moments that hold them together.
         </Reveal>
 
         <Reveal
