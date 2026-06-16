@@ -132,8 +132,6 @@ export function SmallThings() {
 }
 
 function CTA({ item }: { item: (typeof smallThings)[number] }) {
-  const base =
-    "group/cta inline-flex items-center gap-2 px-4 py-2 rounded-full border text-[13px] font-medium transition-colors";
   if (!item.href) {
     return (
       <span className="text-[12px] text-muted/70 italic">
@@ -142,28 +140,24 @@ function CTA({ item }: { item: (typeof smallThings)[number] }) {
     );
   }
   const arrow = (
-    <span
-      aria-hidden
-      className="transition-transform duration-500 ease-out group-hover/cta:translate-x-0.5"
-    >
+    <span aria-hidden className="cta-arrow">
       {item.external ? "↗" : "→"}
     </span>
   );
-  const cls = `${base} border-ink/20 text-ink bg-paper/50 hover:bg-ink hover:text-paper hover:border-ink`;
   if (item.external) {
     return (
       <a
         href={item.href}
         target="_blank"
         rel="noreferrer"
-        className={cls}
+        className="cta-pill group/cta"
       >
         Visit project {arrow}
       </a>
     );
   }
   return (
-    <Link href={item.href} className={cls}>
+    <Link href={item.href} className="cta-pill group/cta">
       Open project {arrow}
     </Link>
   );
