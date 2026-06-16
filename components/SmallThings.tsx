@@ -58,14 +58,16 @@ export function SmallThings() {
 
                   <div
                     id={`note-${t.slug}`}
-                    className={`grid transition-[grid-template-rows,opacity,background-color] duration-500 ease-out ${
+                    className={`grid transition-[grid-template-rows,opacity] duration-500 ease-out ${
                       isOpen
-                        ? "grid-rows-[1fr] opacity-100 bg-sky"
-                        : "grid-rows-[0fr] opacity-0 bg-transparent"
+                        ? "grid-rows-[1fr] opacity-100"
+                        : "grid-rows-[0fr] opacity-0"
                     }`}
                   >
                     <div className="overflow-hidden">
-                      <div className="grid grid-cols-12 gap-x-6 px-6 lg:px-10 pt-2 pb-8 lg:pb-12 -mx-6 lg:-mx-10">
+                      <div
+                        className={`relative grid grid-cols-12 gap-x-6 px-6 lg:px-10 pt-6 pb-8 lg:pb-12 -mx-6 lg:-mx-10 rounded-2xl bg-gradient-to-b from-white/60 to-paper border border-white/60 shadow-[0_1px_0_rgba(255,255,255,0.55)_inset]`}
+                      >
                         <div className="col-span-10 col-start-3 lg:col-span-6 lg:col-start-5">
                           <p className="text-lg leading-[1.6] text-ink/85 max-w-[52ch]">
                             {t.note}
