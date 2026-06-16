@@ -9,7 +9,7 @@ export function About() {
             as="p"
             className="text-2xl lg:text-[2.5rem] leading-[1.3] tracking-[-0.015em] max-w-[34ch] font-serif italic"
           >
-            I&rsquo;m Regina. Born in Mexico, working out of Ottawa.
+            I&rsquo;m Regina. Designer and developer, working out of Ottawa.
           </Reveal>
 
           <Reveal
