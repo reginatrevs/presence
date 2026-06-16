@@ -90,11 +90,22 @@ export type SmallThing = {
   kind: string;
   year: string;
   description: string;
+  note: string;
   href?: string;
   external?: boolean;
 };
 
 export const smallThings: SmallThing[] = [
+  {
+    slug: "motion",
+    title: "Motion",
+    kind: "A motion study",
+    year: "2026",
+    description:
+      "Four small studies in the kind of web motion I actually reach for — a magnetic button, a count-up, a hover marquee, a scroll-traced SVG.",
+    note: "Held together by one rule: every animation has to earn the milliseconds it takes. Most of these took longer to tune than to write.",
+    href: "/lab/motion",
+  },
   {
     slug: "pyralume",
     title: "Pyralume",
@@ -102,6 +113,7 @@ export const smallThings: SmallThing[] = [
     year: "2025",
     description:
       "Led the user testing kit and built the React components from the same desk. Every contract earned by an interview.",
+    note: "Most days started with a video call and ended with a refactor. The testing kit told me where the friction lived; the components answered. By the time the system was stable, every decision had a person behind it.",
   },
   {
     slug: "alo-runner",
@@ -110,6 +122,7 @@ export const smallThings: SmallThing[] = [
     year: "2025",
     description:
       "A small gallery for a local 5K. Built fast, kept careful — type, breathing room, a download button that works.",
+    note: "Cata ran the race; I helped shoot photos and built the site. The whole thing was a weekend. The best constraints come from a real Friday.",
     href: "https://alorunnerottawa.netlify.app/",
     external: true,
   },
@@ -119,7 +132,8 @@ export const smallThings: SmallThing[] = [
     kind: "iOS time-management UI",
     year: "2025",
     description:
-      "A redesign of a time-management app meant to feel calmer in the hand. Shipped as Figma; lived in Swift.",
+      "A redesign of a time-management app meant to feel calmer in the hand.",
+    note: "Most time-management apps feel like the work they’re meant to organize — busy, loud, anxious. This one tries the opposite. A lot of the work was in what we took out.",
   },
   {
     slug: "project-heart",
@@ -128,5 +142,6 @@ export const smallThings: SmallThing[] = [
     year: "2025",
     description:
       "Adapted a responsive site for a nonprofit moving into e-learning. Volunteer work, real users, my favourite kind.",
+    note: "The brief was tight, the audience wasn’t. The site had to work equally well on a teenager’s phone and on a slow rural connection. The compromises were the point.",
   },
 ];
