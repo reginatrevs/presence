@@ -97,6 +97,7 @@ export type SmallThing = {
   note: string;
   href?: string;
   external?: boolean;
+  image?: string;
 };
 
 export const smallThings: SmallThing[] = [
