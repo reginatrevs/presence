@@ -27,6 +27,18 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: url('/cursor.png') 6 6, auto;
+  }
+  a,
+  button,
+  [role="button"],
+  label {
+    cursor: url('/cursor.png') 6 6, pointer;
+  }
+}
+
 ::selection {
   background: var(--color-ink);
   color: var(--color-paper);
@@ -84,6 +96,33 @@ a {
 }
 .cta-pill:hover .cta-arrow {
   transform: translateX(2px);
+}
+
+.nav-link {
+  position: relative;
+  color: var(--color-muted);
+  transition: color 250ms ease, font-weight 250ms ease;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  width: 4px;
+  height: 4px;
+  border-radius: 9999px;
+  background-color: var(--color-olive);
+  transform: translateX(-50%) scale(0);
+  opacity: 0;
+  transition: opacity 250ms ease, transform 250ms ease;
+}
+.nav-link:hover {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+.nav-link:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
 }
 
 .timeline-trace {

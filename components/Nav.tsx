@@ -19,22 +19,19 @@ export function Nav() {
             className="h-7 w-auto max-w-none"
           />
         </Link>
-        <ul className="flex items-center gap-8 text-muted">
+        <ul className="flex items-center gap-8">
           <li>
-            <Link href="/#work" className="hover:text-ink transition-colors">
+            <Link href="/#work" className="nav-link">
               Index
             </Link>
           </li>
           <li>
-            <Link href="/#about" className="hover:text-ink transition-colors">
+            <Link href="/#about" className="nav-link">
               About
             </Link>
           </li>
           <li>
-            <a
-              href="mailto:trevsregina@gmail.com"
-              className="hover:text-ink transition-colors"
-            >
+            <a href="mailto:trevsregina@gmail.com" className="nav-link">
               Contact
             </a>
           </li>
