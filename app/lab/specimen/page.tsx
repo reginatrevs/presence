@@ -18,6 +18,8 @@ const swatches: { name: string; token: string; value: string }[] = [
   { name: "Ink", token: "--color-ink", value: "#0C0C0C" },
   { name: "Muted", token: "--color-muted", value: "#6A6A66" },
   { name: "Rule", token: "--color-rule", value: "#D8D6CD" },
+  { name: "Olive", token: "--color-olive", value: "#4D5236" },
+  { name: "Sky", token: "--color-sky", value: "#DCE7F0" },
 ];
 
 const scale: { label: string; size: string; sample: string }[] = [
@@ -66,11 +68,13 @@ export default function Specimen() {
             </Reveal>
             <Reveal delay={0.08} className="col-span-12 lg:col-span-10 mt-8 lg:mt-0">
               <div className={styles.swatches}>
-                {swatches.map((s) => (
+                {swatches.map((s) => {
+                  const darkSurface = s.name === "Ink" || s.name === "Olive";
+                  return (
                   <div
                     key={s.name}
                     className={styles.swatch}
-                    style={{ background: s.value, color: s.name === "Ink" ? "#F6F5F0" : "#0C0C0C" }}
+                    style={{ background: s.value, color: darkSurface ? "#F6F5F0" : "#0C0C0C" }}
                   >
                     <div>
                       <p className="font-mono text-[11px] uppercase tracking-[0.18em] opacity-80">
@@ -84,7 +88,8 @@ export default function Specimen() {
                       {s.value}
                     </p>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             </Reveal>
           </div>

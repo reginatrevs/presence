@@ -46,8 +46,8 @@ export default async function CaseStudy({
             <div className="mx-auto w-full max-w-[1400px] grid grid-cols-12 gap-x-6">
               <Reveal className="col-span-12 lg:col-span-10 lg:col-start-2 flex items-baseline gap-6 font-mono text-xs uppercase tracking-[0.18em] text-muted">
                 <span>{project.role}</span>
-                <span aria-hidden>·</span>
-                <span>{project.year}</span>
+                <span aria-hidden className="text-olive">·</span>
+                <span className="text-olive">{project.year}</span>
               </Reveal>
 
               <Reveal

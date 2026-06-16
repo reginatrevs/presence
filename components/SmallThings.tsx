@@ -32,7 +32,7 @@ export function SmallThings() {
                     aria-controls={`note-${t.slug}`}
                   >
                     <div className="grid grid-cols-12 gap-x-6 items-baseline">
-                      <span className="col-span-2 lg:col-span-1 font-mono text-xs uppercase tracking-[0.18em] text-muted self-start pt-2">
+                      <span className="col-span-2 lg:col-span-1 font-mono text-xs uppercase tracking-[0.18em] text-olive self-start pt-2">
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       <div className="col-span-10 lg:col-span-3">
@@ -58,14 +58,14 @@ export function SmallThings() {
 
                   <div
                     id={`note-${t.slug}`}
-                    className={`grid transition-[grid-template-rows,opacity] duration-500 ease-out ${
+                    className={`grid transition-[grid-template-rows,opacity,background-color] duration-500 ease-out ${
                       isOpen
-                        ? "grid-rows-[1fr] opacity-100"
-                        : "grid-rows-[0fr] opacity-0"
+                        ? "grid-rows-[1fr] opacity-100 bg-sky"
+                        : "grid-rows-[0fr] opacity-0 bg-transparent"
                     }`}
                   >
                     <div className="overflow-hidden">
-                      <div className="grid grid-cols-12 gap-x-6 pb-8 lg:pb-12">
+                      <div className="grid grid-cols-12 gap-x-6 px-6 lg:px-10 pt-2 pb-8 lg:pb-12 -mx-6 lg:-mx-10">
                         <div className="col-span-10 col-start-3 lg:col-span-6 lg:col-start-5">
                           <p className="text-lg leading-[1.6] text-ink/85 max-w-[52ch]">
                             {t.note}

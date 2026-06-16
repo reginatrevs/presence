@@ -45,7 +45,7 @@ export function Hero() {
           delay={0.25}
           className="col-span-12 lg:col-span-3 lg:col-start-10 mt-12 lg:mt-20 font-mono text-xs uppercase tracking-[0.18em] text-muted flex items-end justify-between gap-6"
         >
-          <span aria-hidden>↓</span>
+          <span aria-hidden className="text-olive">↓</span>
           <span>Three things, recently</span>
         </Reveal>
       </div>

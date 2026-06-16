@@ -25,7 +25,7 @@ export function WorkIndex() {
                     delay={i * 0.05}
                     className="grid grid-cols-12 gap-x-6 items-baseline"
                   >
-                    <span className="col-span-2 lg:col-span-1 font-mono text-xs uppercase tracking-[0.18em] text-muted self-start pt-2">
+                    <span className="col-span-2 lg:col-span-1 font-mono text-xs uppercase tracking-[0.18em] text-olive self-start pt-2">
                       {p.index}
                     </span>
                     <div className="col-span-10 lg:col-span-5">
