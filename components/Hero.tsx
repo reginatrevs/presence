@@ -11,7 +11,7 @@ export function Hero() {
         >
           Regina{" "}
           <span className="group/t relative inline-block align-baseline">
-            <span className="transition-opacity duration-300 group-hover/t:opacity-0">
+            <span className="transition-opacity duration-300 group-hover/t:opacity-0 max-md:opacity-0 [@media(hover:none)]:opacity-0">
               Trevino
             </span>
             <Image
@@ -20,7 +20,7 @@ export function Hero() {
               width={577}
               height={231}
               priority
-              className="pointer-events-none absolute left-1/2 top-1/2 h-[0.85em] w-auto max-w-none -translate-x-1/2 -translate-y-[55%] opacity-0 transition-opacity duration-300 group-hover/t:opacity-100"
+              className="pointer-events-none absolute left-1/2 top-1/2 h-[1.1em] w-auto max-w-none -translate-x-1/2 -translate-y-[55%] opacity-0 transition-opacity duration-300 group-hover/t:opacity-100 max-md:opacity-100 [@media(hover:none)]:opacity-100"
             />
           </span>
           ,<br />
