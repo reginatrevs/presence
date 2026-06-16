@@ -26,7 +26,11 @@ export function Timeline() {
         <ol className="col-span-12 lg:col-span-6 lg:col-start-7 mt-12 lg:mt-0 relative">
           <div
             aria-hidden
-            className="absolute left-[9px] top-3 bottom-6 w-px bg-gradient-to-b from-olive/40 via-rule to-rule/0"
+            className="absolute left-[10px] top-[18px] bottom-[18px] w-[1.5px] bg-rule/70"
+          />
+          <div
+            aria-hidden
+            className="timeline-trace absolute left-[10px] top-[18px] bottom-[18px] w-[1.5px] bg-olive"
           />
 
           {timeline.map((entry, i) => (
@@ -37,10 +41,10 @@ export function Timeline() {
               <Reveal delay={i * 0.05} className="block">
                 <span
                   aria-hidden
-                  className="absolute left-0 top-[5px] flex h-[19px] w-[19px] items-center justify-center"
+                  className="absolute left-0 top-[10px] z-10 flex h-[21px] w-[21px] items-center justify-center"
                 >
-                  <span className="absolute inset-0 rounded-full border border-rule bg-paper" />
-                  <span className="relative h-[7px] w-[7px] rounded-full bg-olive" />
+                  <span className="absolute inset-0 rounded-full border border-olive/40 bg-paper" />
+                  <span className="relative h-[9px] w-[9px] rounded-full bg-olive" />
                 </span>
                 <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-olive">
                   {entry.years}

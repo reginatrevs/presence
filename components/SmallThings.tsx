@@ -149,7 +149,7 @@ function CTA({ item }: { item: (typeof smallThings)[number] }) {
       {item.external ? "↗" : "→"}
     </span>
   );
-  const cls = `${base} border-ink/15 text-ink hover:bg-ink hover:text-paper hover:border-ink`;
+  const cls = `${base} border-ink/20 text-ink bg-paper/50 hover:bg-ink hover:text-white hover:border-ink`;
   if (item.external) {
     return (
       <a

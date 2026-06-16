@@ -51,6 +51,32 @@ a {
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes drawLine {
+  from { transform: scaleY(0); }
+  to { transform: scaleY(1); }
+}
+
+.timeline-trace {
+  transform-origin: top;
+  transform: scaleY(0);
+  animation: drawLine linear both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 75%;
+}
+
+@supports not (animation-timeline: view()) {
+  .timeline-trace {
+    transform: scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timeline-trace {
+    transform: scaleY(1) !important;
+    animation: none !important;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
