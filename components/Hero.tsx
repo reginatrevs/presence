@@ -11,7 +11,7 @@ export function Hero() {
         >
           Regina{" "}
           <span className="group/t relative inline-block align-baseline">
-            <span className="transition-opacity duration-300 group-hover/t:opacity-0 max-md:opacity-0 [@media(hover:none)]:opacity-0">
+            <span className="transition-opacity duration-300 group-hover/t:opacity-0">
               Trevino
             </span>
             <Image
@@ -20,20 +20,20 @@ export function Hero() {
               width={577}
               height={231}
               priority
-              className="pointer-events-none absolute left-1/2 top-1/2 h-[1.1em] w-auto max-w-none -translate-x-1/2 -translate-y-[55%] opacity-0 transition-opacity duration-300 group-hover/t:opacity-100 max-md:opacity-100 [@media(hover:none)]:opacity-100"
+              className="pointer-events-none absolute left-1/2 top-1/2 h-[1.1em] w-auto max-w-none -translate-x-1/2 -translate-y-[55%] opacity-0 transition-opacity duration-300 group-hover/t:opacity-100"
             />
           </span>
           ,<br />
-          design engineer.
+          creative technologist.
         </Reveal>
 
         <Reveal
           delay={0.15}
-          className="col-span-12 lg:col-span-7 lg:col-start-2 mt-12 lg:mt-20 text-lg lg:text-xl leading-[1.55] text-ink/80 max-w-[44ch]"
+          className="col-span-12 lg:col-span-7 lg:col-start-2 mt-12 lg:mt-20 text-lg lg:text-xl leading-[1.55] text-ink/80 max-w-[46ch]"
         >
-          Creative technologist. I make thoughtful, responsive websites —
-          usually starting with a font choice and ending with code I&rsquo;m
-          proud of.
+          Working between design and the front end. Mostly websites — brand
+          systems, campaigns, and the interactive moments that hold them
+          together.
         </Reveal>
 
         <Reveal

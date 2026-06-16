@@ -20,14 +20,14 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Regina Trevino — Design engineer",
+  title: "Regina Trevino — Creative technologist",
   description:
-    "Selected work by Regina Trevino, a design engineer in Ottawa working between typography and the front end.",
+    "Selected work by Regina Trevino, a creative technologist in Ottawa working between design and the front end.",
   metadataBase: new URL("https://trevs.ca"),
   openGraph: {
-    title: "Regina Trevino — Design engineer",
+    title: "Regina Trevino — Creative technologist",
     description:
-      "Selected work by Regina Trevino, a design engineer in Ottawa working between typography and the front end.",
+      "Selected work by Regina Trevino, a creative technologist in Ottawa working between design and the front end.",
     type: "website",
   },
 };

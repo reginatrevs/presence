@@ -17,11 +17,11 @@ export function About() {
             as="p"
             className="mt-10 text-lg leading-[1.6] text-ink/80 max-w-[58ch]"
           >
-            Creative technologist. Most of what I make are websites, usually
-            starting with a font choice and ending with code I&rsquo;m proud of.
-            I came up through interactive media design at Algonquin College,
-            finished with honours mostly because I liked the work, and kept the
-            curiosity around.
+            Creative technologist working between design and the front end.
+            Mostly websites — brand systems, campaigns, and the interactive
+            moments that hold them together. I came up through interactive
+            media design at Algonquin College, finished with honours mostly
+            because I liked the work, and kept the curiosity around.
           </Reveal>
 
           <Reveal
