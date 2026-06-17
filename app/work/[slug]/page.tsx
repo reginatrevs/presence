@@ -5,7 +5,10 @@ import { Colophon } from "@/components/Colophon";
 import { Reveal } from "@/components/motion/Reveal";
 import { projects } from "@/lib/projects";
 
-const studies = projects.filter((p) => !p.externalCase);
+// cyclery-racing has its own dedicated route at app/work/cyclery-racing
+const studies = projects.filter(
+  (p) => !p.externalCase && p.slug !== "cyclery-racing",
+);
 
 export function generateStaticParams() {
   return studies.map((p) => ({ slug: p.slug }));
