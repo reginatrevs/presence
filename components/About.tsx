@@ -11,7 +11,7 @@ export function About() {
             as="p"
             className="text-2xl lg:text-[2.5rem] leading-[1.3] tracking-[-0.015em] max-w-[34ch] font-serif italic"
           >
-            I&rsquo;m Regina. Designer and developer, working out of Ottawa.
+            I&rsquo;m Regina, a creative technologist based in Ottawa.
           </Reveal>
 
           <Reveal
@@ -19,15 +19,9 @@ export function About() {
             as="p"
             className="mt-10 text-lg leading-[1.6] text-ink/80 max-w-[58ch]"
           >
-            Creative technologist working between design and the front end. I
-            create adaptive and responsive websites — brand systems, campaigns,
-            and the interactive moments that hold them together. I came up
-            through interactive media design at{" "}
-            <BracketLink href="https://www.algonquincollege.com/" external>
-              Algonquin College
-            </BracketLink>
-            , finished with honours mostly because I liked the work, and kept
-            the curiosity around.
+            I work across design, front-end development, and digital systems —
+            building responsive websites, brand experiences, and the small
+            structures that make them feel clear, useful, and well considered.
           </Reveal>
 
           <Reveal
@@ -35,13 +29,13 @@ export function About() {
             as="p"
             className="mt-6 text-lg leading-[1.6] text-ink/80 max-w-[58ch]"
           >
-            Right now I&rsquo;m shaping the digital experience at{" "}
-            <BracketLink href="https://thecyclery.ca" external>
-              The Cyclery
+            My background is in interactive media design at{" "}
+            <BracketLink href="https://www.algonquincollege.com/" external>
+              Algonquin College
             </BracketLink>
-            , where most of my days are spent on what makes a shopper pause,
-            then click. Before that, a record label, a VR studio, and a few
-            years of freelance.
+            , but most of what shaped me came from fast-moving, hands-on
+            work: building for the web, solving evolving problems, and
+            learning how to move quickly without losing the craft.
           </Reveal>
 
           <Reveal
@@ -49,9 +43,25 @@ export function About() {
             as="p"
             className="mt-6 text-lg leading-[1.6] text-ink/80 max-w-[58ch]"
           >
-            Lately I&rsquo;ve been more interested in the small systems behind
-            the work — workflow automation, AI-assisted tooling, the practical
-            bits that help a team move faster without losing the craft.
+            I currently support digital experience and web systems at{" "}
+            <BracketLink href="https://thecyclery.ca" external>
+              The Cyclery
+            </BracketLink>
+            , where I work across internal workflows, web creation, content
+            operations, and sponsor-facing projects. My earlier work spans
+            freelance, media, and immersive digital environments — always
+            somewhere between design, strategy, and implementation.
+          </Reveal>
+
+          <Reveal
+            delay={0.3}
+            as="p"
+            className="mt-6 text-lg leading-[1.6] text-ink/80 max-w-[58ch]"
+          >
+            More recently, I&rsquo;ve been exploring the systems behind the
+            work: automation, AI-assisted tooling, and practical ways to help
+            teams work more efficiently while keeping the output thoughtful
+            and human.
           </Reveal>
 
           {/* Skills */}
