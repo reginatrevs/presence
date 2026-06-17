@@ -5,7 +5,6 @@ import Image from "next/image";
 
 export function ScrollIndicator() {
   const [visible, setVisible] = useState(false);
-  const [atBottom, setAtBottom] = useState(false);
   const fillRef = useRef<HTMLDivElement>(null);
   const dotRef = useRef<HTMLDivElement>(null);
 
@@ -18,7 +17,6 @@ export function ScrollIndicator() {
       const docHeight =
         document.documentElement.scrollHeight - window.innerHeight;
       target = docHeight > 0 ? Math.min(1, window.scrollY / docHeight) : 0;
-      setAtBottom(target >= 0.985);
       setVisible(window.scrollY > 200);
     };
 
@@ -45,10 +43,6 @@ export function ScrollIndicator() {
       cancelAnimationFrame(raf);
     };
   }, []);
-
-  const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
     <>
@@ -79,21 +73,6 @@ export function ScrollIndicator() {
         </div>
       </div>
 
-      <button
-        type="button"
-        onClick={scrollTop}
-        aria-label="Back to top"
-        className={`fixed bottom-8 right-8 z-50 hidden lg:flex flex-col items-end gap-0.5 transition-opacity duration-500 ${
-          atBottom ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
-      >
-        <span className="font-serif italic text-[15px] text-ink/85">
-          you made it.
-        </span>
-        <span className="text-[11px] uppercase tracking-[0.18em] text-olive hover:text-ink transition-colors">
-          ↑ back to top
-        </span>
-      </button>
     </>
   );
 }

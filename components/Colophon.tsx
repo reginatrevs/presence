@@ -1,3 +1,5 @@
+import { BackToTop } from "@/components/BackToTop";
+
 export function Colophon() {
   return (
     <div
@@ -9,11 +11,14 @@ export function Colophon() {
     >
       <footer className="relative px-6 lg:px-10 pt-32 lg:pt-48 pb-12 lg:pb-16">
         <div className="mx-auto w-full max-w-[1400px]">
-          <p className="font-serif italic text-[clamp(2.5rem,7vw,6rem)] leading-[0.95] tracking-[-0.025em] text-ink/85 max-w-[18ch]">
-            Always making
-            <br />
-            something.
-          </p>
+          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-12 lg:gap-16">
+            <p className="font-serif italic text-[clamp(2.5rem,7vw,6rem)] leading-[0.95] tracking-[-0.025em] text-ink/85 max-w-[18ch]">
+              Always making
+              <br />
+              something.
+            </p>
+            <BackToTop />
+          </div>
 
           <div className="mt-14 lg:mt-20 grid grid-cols-12 gap-x-6 gap-y-6 text-[13px] items-baseline">
             <p className="col-span-12 lg:col-span-3 text-ink/65">
