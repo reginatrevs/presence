@@ -226,6 +226,52 @@ export function DeviceAdaptive() {
   );
 }
 
+/* ── Reveal rhythm — three rows stage in on click; shows the in-house motion vocabulary ── */
+export function RevealRhythm() {
+  const [key, setKey] = useState(0);
+  const lines = [
+    { w: "w-3/4", text: "Section title arrives first." },
+    { w: "w-full", text: "Then the body, a beat later." },
+    { w: "w-2/3", text: "Then the meta, quieter." },
+  ];
+
+  return (
+    <div className="aspect-[4/3] rounded-2xl border border-rule bg-gradient-to-br from-white/60 via-paper to-rule/30 p-6 lg:p-8 flex flex-col justify-between gap-6 relative overflow-hidden">
+      <div className="flex items-center justify-between">
+        <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-olive">
+          Reveal cadence
+        </span>
+        <button
+          type="button"
+          onClick={() => setKey((k) => k + 1)}
+          className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted hover:text-ink transition-colors border border-ink/15 rounded-full px-3 py-1"
+        >
+          replay ↻
+        </button>
+      </div>
+
+      <div key={key} className="flex flex-col gap-4 mb-2">
+        {lines.map((line, i) => (
+          <div
+            key={i}
+            className="flex flex-col gap-2 opacity-0 translate-y-2 animate-[rhythmRise_700ms_ease-out_forwards]"
+            style={{ animationDelay: `${i * 180}ms` }}
+          >
+            <div className={`${line.w} h-3 rounded-full bg-ink/85`} />
+            <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted">
+              {line.text}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink/40">
+        each element on its own delay — same easing across the whole site.
+      </p>
+    </div>
+  );
+}
+
 /* ── Animated stat counter (single value) ── */
 export function StatCounter({
   value,

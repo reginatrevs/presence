@@ -7,6 +7,7 @@ import {
   SplashCounter,
   CursorBox,
   DeviceAdaptive,
+  RevealRhythm,
   StatCounter,
 } from "./Demos";
 
@@ -207,16 +208,7 @@ export default function CycleryRacingPage() {
                         {item.demo === "splash" && <SplashCounter />}
                         {item.demo === "cursor" && <CursorBox />}
                         {item.demo === "device" && <DeviceAdaptive />}
-                        {item.demo === "reveal" && (
-                          <div className="aspect-[4/3] rounded-2xl border border-rule bg-gradient-to-br from-white/60 via-paper to-rule/30 p-6 lg:p-8 flex flex-col justify-end gap-4">
-                            <div className="h-3 w-3/4 rounded-full bg-ink/15" />
-                            <div className="h-3 w-2/3 rounded-full bg-ink/10" />
-                            <div className="h-3 w-1/2 rounded-full bg-ink/5" />
-                            <p className="mt-4 font-mono text-[10px] uppercase tracking-[0.18em] text-muted">
-                              Each line revealed as it crosses 88% of the viewport.
-                            </p>
-                          </div>
-                        )}
+                        {item.demo === "reveal" && <RevealRhythm />}
                       </div>
                     </Reveal>
                   </li>
