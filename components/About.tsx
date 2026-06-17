@@ -9,18 +9,25 @@ export function About() {
         <div className="col-span-12 lg:col-span-10 lg:col-start-2">
           <Reveal
             as="p"
-            className="text-xl lg:text-2xl leading-[1.55] tracking-[-0.01em] text-ink/85 max-w-[58ch]"
+            className="text-[clamp(2.25rem,5vw,4rem)] leading-[1.1] tracking-[-0.025em] max-w-[24ch] font-serif italic text-ink"
           >
-            I&rsquo;m Regina, a creative technologist based in Ottawa. I work
-            across design, front end development, and digital systems,
+            I&rsquo;m Regina, a creative technologist based in Ottawa.
+          </Reveal>
+
+          <Reveal
+            delay={0.1}
+            as="p"
+            className="mt-10 lg:mt-14 text-lg lg:text-xl leading-[1.6] text-ink/85 max-w-[58ch]"
+          >
+            I work across design, front end development, and digital systems,
             building responsive websites, brand experiences, and the small
             structures that make them feel clear, useful, and well considered.
           </Reveal>
 
           <Reveal
-            delay={0.12}
+            delay={0.16}
             as="p"
-            className="mt-8 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
+            className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
             My background is in interactive media design, but most of what
             shaped me came from fast moving, hands on work: building for the
@@ -29,7 +36,7 @@ export function About() {
           </Reveal>
 
           <Reveal
-            delay={0.18}
+            delay={0.22}
             as="p"
             className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
@@ -44,7 +51,7 @@ export function About() {
           </Reveal>
 
           <Reveal
-            delay={0.24}
+            delay={0.28}
             as="p"
             className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
