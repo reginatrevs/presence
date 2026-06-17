@@ -66,14 +66,14 @@ export function ScrollIndicator() {
         />
         <div
           ref={dotRef}
-          className="absolute top-full mt-2 -translate-x-1/2 h-12 w-12 rounded-full overflow-hidden border-2 border-paper shadow-[0_10px_24px_-8px_rgba(12,12,12,0.4)] ring-1 ring-ink/10 will-change-[left]"
+          className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 h-9 w-9 rounded-full overflow-hidden border-2 border-paper shadow-[0_8px_18px_-6px_rgba(12,12,12,0.35)] ring-1 ring-ink/10 will-change-[left]"
           style={{ left: "0%" }}
         >
           <Image
             src="/cursor-full.png"
             alt=""
-            width={96}
-            height={96}
+            width={72}
+            height={72}
             className="h-full w-full object-cover"
           />
         </div>
