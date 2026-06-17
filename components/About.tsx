@@ -41,7 +41,7 @@ export function About() {
             className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
             I currently support digital experience and web systems at{" "}
-            <BracketLink href="https://thecyclery.ca" external>
+            <BracketLink href="https://instagram.com/cycleryottawa" external>
               The Cyclery
             </BracketLink>
             , where I work across internal workflows, web creation, content
@@ -128,7 +128,7 @@ export function About() {
             <div>
               <p className="text-muted">Now</p>
               <p className="mt-1.5">
-                <BracketLink href="https://thecyclery.ca" external>
+                <BracketLink href="https://instagram.com/cycleryottawa" external>
                   The Cyclery
                 </BracketLink>
               </p>

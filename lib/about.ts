@@ -75,7 +75,7 @@ export const timeline: TimelineEntry[] = [
     years: "2024 — Now",
     role: "Digital experience & web production",
     org: "The Cyclery",
-    orgUrl: "https://thecyclery.ca",
+    orgUrl: "https://instagram.com/cycleryottawa",
     summary:
       "Leading improvements to the e-commerce experience — usability, page structure, and customer journeys across key storefront pages. Managing site updates and digital campaign launches that support seasonal priorities and conversion-focused work.",
   },
