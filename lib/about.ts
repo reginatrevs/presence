@@ -74,25 +74,25 @@ export const timeline: TimelineEntry[] = [
   {
     years: "2024 — Now",
     role: "Digital experience & web production",
-    org: "The Cyclery",
+    org: "The Cyclery / Cyclery Racing",
     orgUrl: "https://instagram.com/cycleryottawa",
     summary:
-      "Leading improvements to the e-commerce experience — usability, page structure, and customer journeys across key storefront pages. Managing site updates and digital campaign launches that support seasonal priorities and conversion-focused work.",
+      "Supporting digital experience and web production across The Cyclery and Cyclery Racing, including the creation of the new Cyclery Racing website, sponsor facing content, digital asset systems, and workflow improvements tied to team and brand visibility.",
   },
   {
     years: "2025",
-    role: "UX research & front-end",
+    role: "UX research & front end",
     org: "Pyralume",
     orgUrl: "https://www.linkedin.com/company/pyralume/",
     summary:
-      "Built a user testing kit to support research and usability evaluation. Synthesized findings into interface decisions and front-end components in React, TypeScript, and Tailwind.",
+      "Created a user testing kit to support research and usability evaluation, then translated those findings into interface decisions and front end components built with React, TypeScript, and Tailwind.",
   },
   {
     years: "2025",
-    role: "Front-end developer",
+    role: "Front end developer",
     org: "Project Heart",
     summary:
-      "Adapted a responsive site to support its transition toward an e-learning platform. Improved front-end structure and usability while keeping pace with an evolving brand identity.",
+      "Adapted and implemented a responsive website to support its transition toward an e learning platform. Improved front end structure, usability, and clarity while keeping pace with an evolving identity and set of goals.",
   },
   {
     years: "2025",
@@ -100,15 +100,29 @@ export const timeline: TimelineEntry[] = [
     org: "Lately",
     orgUrl: "https://www.getlately.app/",
     summary:
-      "Designed v2 of an iOS time-management app for Erik MacInnis. A calmer, more playful direction — soft palette, gamified feedback, a flexible design system that defined the prototype.",
+      "Designed the second version of an iOS time management app, shaping a calmer and more playful direction through interface design, feedback systems, and a flexible visual language.",
   },
   {
-    years: "2023 — 2024",
+    years: "2024 — 2025",
     role: "Web developer",
     org: "Notto",
     orgUrl: "https://notto.ca",
     summary:
-      "Built and launched a self-hosted operations platform site for design studios. Responsive front-end with Next.js, TypeScript, React, and Tailwind; Supabase for the founding-studio waitlist.",
+      "Built and launched a self hosted website for a studio focused operations platform. Developed the responsive front end using Next.js, TypeScript, React, and Tailwind, with Supabase supporting the founding studio waitlist.",
+  },
+  {
+    years: "2021 — Now",
+    role: "Freelance designer & developer",
+    org: "Independent",
+    summary:
+      "Designing and developing websites, interfaces, and digital content for clients across media, culture, and service based brands, including work for a major record label.",
+  },
+  {
+    years: "2019 — 2023",
+    role: "Digital & CMS specialist",
+    org: "Immersive3dspaces",
+    summary:
+      "Developed and launched a website centered on VR focused services. Designed and optimized content for search visibility, mobile responsiveness, and audience engagement across email and web.",
   },
   {
     years: "2023 — 2025",
@@ -116,20 +130,6 @@ export const timeline: TimelineEntry[] = [
     org: "Algonquin College",
     orgUrl: "https://www.algonquincollege.com/",
     summary:
-      "School of Media and Design. 4.0, with honours — mostly because the work felt worth doing carefully.",
-  },
-  {
-    years: "2021 — Now",
-    role: "Freelance designer & developer",
-    org: "Independent",
-    summary:
-      "Designed and developed adaptive websites, product interfaces, and digital content for clients across media, culture, and service brands — including a major record label.",
-  },
-  {
-    years: "2019 — 2023",
-    role: "Digital & CMS specialist",
-    org: "Immersive3dspaces",
-    summary:
-      "Developed and launched the site showcasing VR-focused services. Designed and optimized content for search visibility, mobile responsiveness, and audience engagement across email and web.",
+      "Studied interactive media design at Algonquin College, graduating with honours and a 4.0 GPA. A lot of what shaped my approach came from learning to build with both craft and intention.",
   },
 ];
