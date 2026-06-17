@@ -9,57 +9,47 @@ export function About() {
         <div className="col-span-12 lg:col-span-10 lg:col-start-2">
           <Reveal
             as="p"
-            className="text-2xl lg:text-[2.5rem] leading-[1.3] tracking-[-0.015em] max-w-[34ch] font-serif italic"
+            className="text-xl lg:text-2xl leading-[1.55] tracking-[-0.01em] text-ink/85 max-w-[58ch]"
           >
-            I&rsquo;m Regina, a creative technologist based in Ottawa.
-          </Reveal>
-
-          <Reveal
-            delay={0.12}
-            as="p"
-            className="mt-10 text-lg leading-[1.6] text-ink/80 max-w-[58ch]"
-          >
-            I work across design, front-end development, and digital systems —
+            I&rsquo;m Regina, a creative technologist based in Ottawa. I work
+            across design, front end development, and digital systems,
             building responsive websites, brand experiences, and the small
             structures that make them feel clear, useful, and well considered.
           </Reveal>
 
           <Reveal
-            delay={0.18}
+            delay={0.12}
             as="p"
-            className="mt-6 text-lg leading-[1.6] text-ink/80 max-w-[58ch]"
+            className="mt-8 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
-            My background is in interactive media design at{" "}
-            <BracketLink href="https://www.algonquincollege.com/" external>
-              Algonquin College
-            </BracketLink>
-            , but most of what shaped me came from fast-moving, hands-on
-            work: building for the web, solving evolving problems, and
-            learning how to move quickly without losing the craft.
+            My background is in interactive media design, but most of what
+            shaped me came from fast moving, hands on work: building for the
+            web, solving evolving problems, and learning how to move quickly
+            without losing the craft.
           </Reveal>
 
           <Reveal
-            delay={0.24}
+            delay={0.18}
             as="p"
-            className="mt-6 text-lg leading-[1.6] text-ink/80 max-w-[58ch]"
+            className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
             I currently support digital experience and web systems at{" "}
             <BracketLink href="https://thecyclery.ca" external>
               The Cyclery
             </BracketLink>
             , where I work across internal workflows, web creation, content
-            operations, and sponsor-facing projects. My earlier work spans
-            freelance, media, and immersive digital environments — always
+            operations, and sponsor facing projects. My earlier work spans
+            freelance, media, and immersive digital environments, always
             somewhere between design, strategy, and implementation.
           </Reveal>
 
           <Reveal
-            delay={0.3}
+            delay={0.24}
             as="p"
-            className="mt-6 text-lg leading-[1.6] text-ink/80 max-w-[58ch]"
+            className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
             More recently, I&rsquo;ve been exploring the systems behind the
-            work: automation, AI-assisted tooling, and practical ways to help
+            work: automation, AI assisted tooling, and practical ways to help
             teams work more efficiently while keeping the output thoughtful
             and human.
           </Reveal>
