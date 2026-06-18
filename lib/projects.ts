@@ -30,7 +30,7 @@ export const projects: Project[] = [
       "A launch site for a Canadian racing team. Long, deliberate scroll; pink on black; sponsors as a closing wall rather than an opening one.",
     stack: ["Next.js", "GSAP", "TypeScript", "Vercel"],
     liveUrl: "https://www.cycleryracing.ca",
-    // image: "/work/cyclery-racing.jpg", // drop a photo here
+    image: "/cycleryracing.png",
     caseStudy: {
       frame:
         "A new launch site for a competitive Canadian cycling team. The brief was to convey speed and discipline without leaning on motorsport tropes. The constraint was that the site had to feel as deliberate parked as it does in motion.",
@@ -53,7 +53,7 @@ export const projects: Project[] = [
       "A marketing site for B2B operations software that adapts to how studios actually work. The page itself had to argue the product's thesis.",
     stack: ["Next.js", "Supabase", "TypeScript", "Tailwind"],
     liveUrl: "https://notto.ca",
-    // image: "/work/notto.jpg", // drop a photo here
+    image: "/notto.png",
     caseStudy: {
       frame:
         "Notto is operations software for design studios — interior, workspace, architecture. The founders had a clear thesis: most software forces studios to adapt to it; Notto adapts to studios. The marketing site's job was to make that argument the moment a principal landed on the page.",
@@ -76,7 +76,7 @@ export const projects: Project[] = [
       "A small typographic system shown as a site. CSS-driven scroll choreography, no animation library — just the platform, behaving carefully.",
     stack: ["CSS", "Next.js", "Instrument Serif", "Geist"],
     externalCase: "/lab/specimen",
-    // image: "/work/specimen.jpg", // drop a photo here
+    image: "/specimen.png",
     caseStudy: {
       frame: "",
       decisionLabel: "",
