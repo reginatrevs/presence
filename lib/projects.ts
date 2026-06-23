@@ -142,6 +142,7 @@ export const smallThings: SmallThing[] = [
     note: "Cata ran the race; I helped shoot photos and built the site. The whole thing was a weekend. The best constraints come from a real Friday.",
     href: "https://alorunnerottawa.netlify.app/",
     external: true,
+    image: "/alo.png",
   },
   {
     slug: "lately",
@@ -154,6 +155,7 @@ export const smallThings: SmallThing[] = [
     href: "https://www.getlately.app/",
     external: true,
     caseUrl: "https://www.instagram.com/p/DM9MOAXMT9-/",
+    image: "/lately.png",
   },
   {
     slug: "project-heart",
@@ -163,5 +165,6 @@ export const smallThings: SmallThing[] = [
     description:
       "Adapted a responsive site for a nonprofit moving into e-learning. Volunteer work, real users, my favourite kind.",
     note: "The brief was tight, the audience wasn’t. The site had to work equally well on a teenager’s phone and on a slow rural connection. The compromises were the point.",
+    image: "/heart.png",
   },
 ];
