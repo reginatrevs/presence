@@ -115,11 +115,11 @@ export const smallThings: SmallThing[] = [
   {
     slug: "enduser",
     title: "Enduser",
-    kind: "UX/UI · pre-launch",
+    kind: "Creative lead, design & build · pre-launch",
     year: "2026",
     description:
-      "UX/UI for a donations platform around recycling — teaching people how to take part and showing them, with full transparency, where their weekly materials actually end up.",
-    note: "A donation flow paired with a quiet education layer: what each material becomes, and the local cycle behind the weekly pickup. Designed end to end; pre-launch.",
+      "Creative lead, design, and web app build for a donations platform around recycling — teaching people how to take part and showing them, with full transparency, where their weekly materials actually end up.",
+    note: "A donation flow paired with a quiet education layer: what each material becomes, and the local cycle behind the weekly pickup. Led the creative direction and built the web app end to end; pre-launch.",
   },
   {
     slug: "pyralume",
