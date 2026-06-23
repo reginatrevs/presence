@@ -113,6 +113,15 @@ export const smallThings: SmallThing[] = [
     href: "/lab/motion",
   },
   {
+    slug: "enduser",
+    title: "Enduser",
+    kind: "UX/UI · pre-launch",
+    year: "2026",
+    description:
+      "UX/UI for a donations platform around recycling — teaching people how to take part and showing them, with full transparency, where their weekly materials actually end up.",
+    note: "A donation flow paired with a quiet education layer: what each material becomes, and the local cycle behind the weekly pickup. Designed end to end; pre-launch.",
+  },
+  {
     slug: "pyralume",
     title: "Pyralume",
     kind: "Research + components",
