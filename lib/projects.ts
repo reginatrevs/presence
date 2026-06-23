@@ -120,6 +120,7 @@ export const smallThings: SmallThing[] = [
     description:
       "Creative lead, design, and web app build for a donations platform around recycling — teaching people how to take part and showing them, with full transparency, where their weekly materials actually end up.",
     note: "A donation flow paired with a quiet education layer: what each material becomes, and the local cycle behind the weekly pickup. Led the creative direction and built the web app end to end; pre-launch.",
+    image: "/enduser.png",
   },
   {
     slug: "pyralume",
@@ -165,6 +166,5 @@ export const smallThings: SmallThing[] = [
     description:
       "Adapted a responsive site for a nonprofit moving into e-learning. Volunteer work, real users, my favourite kind.",
     note: "The brief was tight, the audience wasn’t. The site had to work equally well on a teenager’s phone and on a slow rural connection. The compromises were the point.",
-    image: "/heart.png",
   },
 ];
