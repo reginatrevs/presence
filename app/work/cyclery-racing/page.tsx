@@ -83,23 +83,13 @@ export default function CycleryRacingPage() {
                   href="https://www.cycleryracing.ca"
                   target="_blank"
                   rel="noreferrer"
-                  className="group inline-flex items-baseline gap-2 text-lg tracking-[-0.01em] border-b border-ink/20 hover:border-ink pb-1 self-start transition-colors"
+                  className="cta-pill group/cta self-start"
+                  style={{ fontSize: 14, padding: "10px 18px" }}
                 >
-                  cycleryracing.ca
-                  <span
-                    aria-hidden
-                    className="transition-transform duration-500 group-hover:translate-x-1"
-                  >
+                  Visit project
+                  <span aria-hidden className="cta-arrow">
                     ↗
                   </span>
-                </a>
-                <a
-                  href="https://github.com/reginatrevs/cyclery-racing"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group inline-flex items-baseline gap-2 text-sm text-muted hover:text-ink transition-colors"
-                >
-                  view source ↗
                 </a>
               </Reveal>
             </div>

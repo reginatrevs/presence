@@ -19,9 +19,8 @@ export function About() {
             as="p"
             className="mt-10 lg:mt-14 text-lg lg:text-xl leading-[1.6] text-ink/85 max-w-[58ch]"
           >
-            I work across design, front end development, and digital systems,
-            building responsive websites, brand experiences, and the small
-            structures that make them feel clear, useful, and well considered.
+            I design and build digital products, interfaces, and systems that
+            make complex things easier to use and manage.
           </Reveal>
 
           <Reveal
@@ -30,9 +29,9 @@ export function About() {
             className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
             My background is in interactive media design, but most of what
-            shaped me came from fast moving, hands on work: building for the
-            web, solving evolving problems, and learning how to move quickly
-            without losing the craft.
+            shaped my practice came from hands-on work: solving evolving
+            problems, building real things, and learning to move between
+            design and implementation without the details falling apart.
           </Reveal>
 
           <Reveal
@@ -40,14 +39,15 @@ export function About() {
             as="p"
             className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
-            I currently support digital experience and web systems at{" "}
+            I own the digital experience and systems at{" "}
             <BracketLink href="https://instagram.com/cycleryottawa" external>
               The Cyclery
             </BracketLink>
-            , where I work across internal workflows, web creation, content
-            operations, and sponsor facing projects. My earlier work spans
-            freelance, media, and immersive digital environments, always
-            somewhere between design, strategy, and implementation.
+            , where my work covers e-commerce, internal workflows, product
+            launches, and the tools behind them. I also designed and built
+            the Cyclery Racing site end to end. Earlier work spans freelance,
+            media, and immersive digital environments, which put me in front
+            of very different kinds of users and problems.
           </Reveal>
 
           <Reveal
@@ -55,10 +55,20 @@ export function About() {
             as="p"
             className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
           >
-            More recently, I&rsquo;ve been exploring the systems behind the
-            work: automation, AI assisted tooling, and practical ways to help
-            teams work more efficiently while keeping the output thoughtful
-            and human.
+            I&rsquo;m most interested in products that need both thoughtful
+            design and real execution: tools people use, systems teams rely
+            on. Lately that&rsquo;s meant automation and AI-assisted tooling,
+            less because it&rsquo;s fast and more because it changes what&rsquo;s
+            worth building in the first place.
+          </Reveal>
+
+          <Reveal
+            delay={0.34}
+            as="p"
+            className="mt-6 text-lg leading-[1.65] text-ink/80 max-w-[58ch]"
+          >
+            I think the interesting work right now is in deciding what to
+            build, not in how quickly you can build it.
           </Reveal>
 
           {/* Skills */}

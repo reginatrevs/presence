@@ -125,10 +125,10 @@ export const smallThings: SmallThing[] = [
   {
     slug: "pyralume",
     title: "Pyralume",
-    kind: "Research + components",
+    kind: "Research to components",
     year: "2025",
     description:
-      "Led the user testing kit and built the React components from the same desk. Every contract earned by an interview.",
+      "Ran the usability research, then built the React components from the same desk. A networking platform for filmmakers.",
     note: "Most days started with a video call and ended with a refactor. The testing kit told me where the friction lived; the components answered. By the time the system was stable, every decision had a person behind it.",
     href: "https://www.linkedin.com/company/pyralume/",
     external: true,
@@ -146,13 +146,22 @@ export const smallThings: SmallThing[] = [
     image: "/alo.png",
   },
   {
+    slug: "designdays-chicago",
+    title: "DesignDays Chicago",
+    kind: "Event & product photography",
+    year: "2023 — 2026",
+    description:
+      "Photography and art direction for product launches and exhibits at DesignDays Fulton Market, 2023, 2025, and 2026.",
+    note: "Three cycles of on-site work — product, environment, moment. Delivered edited image sets to exhibiting brands and to the event.",
+  },
+  {
     slug: "lately",
     title: "Lately",
     kind: "iOS time-management UI",
     year: "2025",
     description:
-      "UI for v2 of Lately, a time-management app built by Erik MacInnis. Redesigned to feel calm, simple, and playful — away from the cold of typical time apps.",
-    note: "Soft colours, gamified feedback, a flexible system. The shipped app eventually went with a different direction, but the prototype defined the language.",
+      "UI for v2 of Lately, a time-management app built by Erik MacInnis. Redesigned to feel calm, simple, and playful, away from the cold of typical time apps. Built on a Figma design system: components, colour, and type. Shipped in v2; the current version has since been reworked for Apple's Liquid Glass.",
+    note: "Built on a Figma design system — components, colour, type. Shipped in v2; current version has since been reworked for Apple's Liquid Glass.",
     href: "https://www.getlately.app/",
     external: true,
     caseUrl: "https://www.instagram.com/p/DM9MOAXMT9-/",

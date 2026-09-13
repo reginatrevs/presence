@@ -66,13 +66,13 @@ export function SmallThings() {
             style={{ willChange: "transform" }}
           >
             {hovered && (
-              <div className="w-[260px] aspect-[4/5] rounded-2xl border border-white/70 bg-gradient-to-br from-white/80 via-paper to-rule/30 shadow-[0_24px_48px_-24px_rgba(12,12,12,0.25)] overflow-hidden relative">
+              <div className="w-[360px] aspect-[4/3] rounded-2xl border border-white/70 bg-gradient-to-br from-white/80 via-paper to-rule/30 shadow-[0_24px_48px_-24px_rgba(12,12,12,0.25)] overflow-hidden relative">
                 {hovered.image ? (
                   <Image
                     src={hovered.image}
                     alt=""
                     fill
-                    sizes="260px"
+                    sizes="360px"
                     className="object-cover"
                   />
                 ) : (

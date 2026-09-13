@@ -73,34 +73,34 @@ export type TimelineEntry = {
 export const timeline: TimelineEntry[] = [
   {
     years: "2024 — Now",
-    role: "Digital experience & web production",
+    role: "Digital Experience & E-commerce Developer",
     org: "The Cyclery / Cyclery Racing",
     orgUrl: "https://instagram.com/cycleryottawa",
     summary:
-      "Supporting digital experience and web production across The Cyclery and Cyclery Racing, including the creation of the new Cyclery Racing website, sponsor facing content, digital asset systems, and workflow improvements tied to team and brand visibility.",
+      "Digital experience, e-commerce, and web development for The Cyclery and Cyclery Racing. I own the store's e-commerce experience and the systems behind it, and I designed and built the new Cyclery Racing site end to end.",
   },
   {
     years: "2025",
-    role: "UX research & front end",
+    role: "Front-End Developer & UX Researcher",
     org: "Pyralume",
     orgUrl: "https://www.linkedin.com/company/pyralume/",
     summary:
-      "Created a user testing kit to support research and usability evaluation, then translated those findings into interface decisions and front end components built with React, TypeScript, and Tailwind.",
+      "Built interface components in React, TypeScript, and Tailwind for Pyralume, a networking platform for filmmakers. Created the user testing kit and usability programme, then translated those findings into interface decisions and shipped code.",
   },
   {
     years: "2025",
-    role: "Front end developer",
+    role: "Front-end developer",
     org: "Project Heart",
     summary:
-      "Adapted and implemented a responsive website to support its transition toward an e learning platform. Improved front end structure, usability, and clarity while keeping pace with an evolving identity and set of goals.",
+      "Adapted and implemented a responsive website supporting its transition toward an e-learning platform. Improved front-end structure, usability, and accessibility while keeping pace with an evolving identity and set of goals.",
   },
   {
     years: "2025",
-    role: "UI designer",
+    role: "UI Designer",
     org: "Lately",
     orgUrl: "https://www.getlately.app/",
     summary:
-      "Designed the second version of an iOS time management app, shaping a calmer and more playful direction through interface design, feedback systems, and a flexible visual language.",
+      "Designed and shipped v2 of an iOS time-management app, shaping a calmer and more playful direction through interface design, a Figma design system, feedback patterns, and a flexible visual language.",
   },
   {
     years: "2024 — 2025",
@@ -112,17 +112,17 @@ export const timeline: TimelineEntry[] = [
   },
   {
     years: "2021 — Now",
-    role: "Freelance designer & developer",
+    role: "Freelance creative lead & developer",
     org: "Independent",
     summary:
-      "Designing and developing websites, interfaces, and digital content for clients across media, culture, and service based brands, including work for a major record label.",
+      "Creative direction, brand and visual systems, websites, interfaces, and iOS app UI for clients across media, culture, and service-based brands, including work for a major international record label. I usually lead the direction and build the result.",
   },
   {
     years: "2019 — 2023",
-    role: "Digital & CMS specialist",
+    role: "Web & Digital Specialist",
     org: "Immersive3dspaces",
     summary:
-      "Developed and launched a website centered on VR focused services. Designed and optimized content for search visibility, mobile responsiveness, and audience engagement across email and web.",
+      "Developed and launched a website centered on VR and immersive services. Designed and optimized content for search visibility, mobile responsiveness, and audience engagement across email and web.",
   },
   {
     years: "2023 — 2025",

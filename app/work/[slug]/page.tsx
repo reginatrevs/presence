@@ -78,13 +78,11 @@ export default async function CaseStudy({
                     href={project.liveUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="group inline-flex items-baseline gap-2 text-lg tracking-[-0.01em] border-b border-ink/20 hover:border-ink pb-1 self-start transition-colors"
+                    className="cta-pill group/cta self-start"
+                    style={{ fontSize: 14, padding: "10px 18px" }}
                   >
-                    {project.liveUrl.replace(/^https?:\/\/(www\.)?/, "")}
-                    <span
-                      aria-hidden
-                      className="transition-transform duration-500 group-hover:translate-x-1"
-                    >
+                    Visit project
+                    <span aria-hidden className="cta-arrow">
                       ↗
                     </span>
                   </a>
