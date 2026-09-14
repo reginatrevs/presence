@@ -111,6 +111,7 @@ export const smallThings: SmallThing[] = [
       "Four small studies in the kind of web motion I actually reach for — a magnetic button, a count-up, a hover marquee, a scroll-traced SVG.",
     note: "Held together by one rule: every animation has to earn the milliseconds it takes. Most of these took longer to tune than to write.",
     href: "/lab/motion",
+    image: "/motion.png",
   },
   {
     slug: "enduser",
@@ -132,6 +133,7 @@ export const smallThings: SmallThing[] = [
     note: "Most days started with a video call and ended with a refactor. The testing kit told me where the friction lived; the components answered. By the time the system was stable, every decision had a person behind it.",
     href: "https://www.linkedin.com/company/pyralume/",
     external: true,
+    image: "/pyralume.png",
   },
   {
     slug: "alo-runner",
@@ -143,7 +145,7 @@ export const smallThings: SmallThing[] = [
     note: "Cata ran the race; I helped shoot photos and built the site. The whole thing was a weekend. The best constraints come from a real Friday.",
     href: "https://alorunnerottawa.netlify.app/",
     external: true,
-    image: "/alo.png",
+    image: "/alo-run.png",
   },
   {
     slug: "designdays-chicago",
@@ -153,6 +155,7 @@ export const smallThings: SmallThing[] = [
     description:
       "Photography and art direction for product launches and exhibits at DesignDays Fulton Market, 2023, 2025, and 2026.",
     note: "Three cycles of on-site work — product, environment, moment. Delivered edited image sets to exhibiting brands and to the event.",
+    image: "/design-days.png",
   },
   {
     slug: "lately",
@@ -175,5 +178,6 @@ export const smallThings: SmallThing[] = [
     description:
       "Adapted a responsive site for a nonprofit moving into e-learning. Volunteer work, real users, my favourite kind.",
     note: "The brief was tight, the audience wasn’t. The site had to work equally well on a teenager’s phone and on a slow rural connection. The compromises were the point.",
+    image: "/project-heart.png",
   },
 ];
