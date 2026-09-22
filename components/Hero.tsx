@@ -3,7 +3,7 @@ import { Reveal } from "@/components/motion/Reveal";
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] flex items-end pt-32 pb-16 px-6 lg:px-10">
+    <section className="relative min-h-[100svh] flex items-center pt-28 pb-24 px-6 lg:px-10">
       <div className="mx-auto w-full max-w-[1400px] grid grid-cols-12 gap-x-6">
         <Reveal
           as="h1"
@@ -36,9 +36,8 @@ export function Hero() {
           delay={0.15}
           className="col-span-12 lg:col-span-7 lg:col-start-2 mt-12 lg:mt-20 text-lg lg:text-xl leading-[1.55] text-ink/80 max-w-[46ch]"
         >
-          Working between design and the front end. I create adaptive and
-          responsive websites — brand systems, campaigns, and the interactive
-          moments that hold them together.
+          I design things and then build them. Interfaces, brand systems, and
+          the interactive moments that hold them together.
         </Reveal>
 
         <Reveal
