@@ -107,7 +107,7 @@ export default function ContactPage() {
               >
                 Usually faster by email.
                 <br />
-                Usually on a bike otherwise.
+                On a bike otherwise.
               </Reveal>
             </div>
           </div>
