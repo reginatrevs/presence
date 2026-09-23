@@ -96,7 +96,7 @@ export function SmallThings() {
               >
                 <Reveal delay={i * 0.04}>
                   <div className="group/row py-10 lg:py-14 px-1 transition-colors hover:bg-ink/[0.015]">
-                    <div className="grid grid-cols-12 gap-x-6 items-start">
+                    <div className="grid grid-cols-12 gap-x-4 lg:gap-x-6 items-start">
                       <span className="col-span-2 lg:col-span-1 font-mono text-xs uppercase tracking-[0.18em] text-olive pt-2">
                         {String(i + 1).padStart(2, "0")}
                       </span>
@@ -108,12 +108,28 @@ export function SmallThings() {
                         </h3>
                         <p className="mt-3 text-sm text-muted">{t.kind}</p>
                       </div>
-                      <div className="col-span-12 lg:col-span-4 mt-6 lg:mt-2">
+
+                      {/* Mobile thumbnail — gives personality where hover doesn't work */}
+                      {t.image && (
+                        <div className="col-span-12 col-start-3 mt-5 lg:hidden">
+                          <div className="relative aspect-[4/3] max-w-[280px] rounded-xl overflow-hidden border border-white/70 bg-gradient-to-br from-white/80 via-paper to-rule/30 shadow-[0_10px_24px_-14px_rgba(12,12,12,0.2)]">
+                            <Image
+                              src={t.image}
+                              alt=""
+                              fill
+                              sizes="280px"
+                              className="object-cover"
+                            />
+                          </div>
+                        </div>
+                      )}
+
+                      <div className="col-span-10 col-start-3 lg:col-span-4 lg:col-start-auto mt-5 lg:mt-2">
                         <p className="text-[15px] leading-[1.6] text-ink/75 max-w-[40ch]">
                           {t.description}
                         </p>
                       </div>
-                      <div className="col-span-12 lg:col-span-2 mt-5 lg:mt-2 flex lg:flex-col lg:items-end items-baseline gap-3 lg:gap-4">
+                      <div className="col-span-10 col-start-3 lg:col-span-2 lg:col-start-auto mt-5 lg:mt-2 flex lg:flex-col lg:items-end items-baseline gap-3 lg:gap-4">
                         <span className="font-mono text-xs uppercase tracking-[0.18em] text-muted">
                           {t.year}
                         </span>

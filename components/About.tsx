@@ -1,12 +1,18 @@
 import { Reveal } from "@/components/motion/Reveal";
 import { BracketLink } from "@/components/BracketLink";
+import { FloatingPortrait } from "@/components/FloatingPortrait";
 import { skills } from "@/lib/about";
 
 export function About() {
   return (
-    <section id="about" className="px-6 lg:px-10 py-24 lg:py-40 border-t border-rule">
+    <section
+      id="about"
+      className="relative px-6 lg:px-10 py-24 lg:py-40 border-t border-rule"
+    >
       <div className="mx-auto w-full max-w-[1400px] grid grid-cols-12 gap-x-6">
-        <div className="col-span-12 lg:col-span-10 lg:col-start-2">
+        <div className="col-span-12 lg:col-span-8 lg:col-start-2">
+          <div id="about-intro" className="relative">
+            <FloatingPortrait />
           <Reveal
             as="p"
             className="text-[clamp(2.25rem,5vw,4rem)] leading-[1.1] tracking-[-0.025em] max-w-[24ch] font-serif italic text-ink"
@@ -70,6 +76,7 @@ export function About() {
             I think the interesting work right now is in deciding what to
             build, not in how quickly you can build it.
           </Reveal>
+          </div>
 
           {/* Skills */}
           <div className="mt-16 lg:mt-20 border-t border-rule pt-12 lg:pt-16">
@@ -149,3 +156,4 @@ export function About() {
     </section>
   );
 }
+

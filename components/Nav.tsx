@@ -31,9 +31,9 @@ export function Nav() {
             </Link>
           </li>
           <li>
-            <a href="mailto:trevsregina@gmail.com" className="nav-link">
+            <Link href="/contact" className="nav-link">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
